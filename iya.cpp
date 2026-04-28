@@ -23,7 +23,6 @@ public:
     void displayAll(orang &a);
 };
 
-// Implementasi method displayAll
 void siswa::displayAll(orang &a)
 {
     cout << id << endl << a.nama << endl;
@@ -35,7 +34,6 @@ void orang::setNama(string pNama)
     nama = pNama;
 }
 
-// Implementasi method setId
 void siswa::setId(int pId)
 {
     id = pId;
