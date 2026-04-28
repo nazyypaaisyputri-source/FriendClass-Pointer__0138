@@ -34,3 +34,4 @@ void orang::setNama(string pNama)
 }
 {
         id = pId;
+};
