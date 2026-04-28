@@ -28,7 +28,6 @@ void siswa::displayAll(orang &a)
     cout << id << endl << a.nama << endl;
 }
 
-// Implementasi method setNama
 void orang::setNama(string pNama)
 {
     nama = pNama;
